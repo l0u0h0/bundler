@@ -1,0 +1,25 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "description": "- 외부 패키지의 도움을 받아 HTML/CSS/ES5 등 웹에서 보여줄 수 있도록   변환시켜줌 ### Parcel - 구성 없는 단순한 자동 번들링 - 소/중형 프로젝트에 적합 ### Webpack - 매우 꼼꼼한 구성 - 중/대형 프로젝트에 적합",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l0u0h0/bundler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l0u0h0/bundler/issues"
+  },
+  "homepage": "https://github.com/l0u0h0/bundler#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.49.9"
+  }
+}
