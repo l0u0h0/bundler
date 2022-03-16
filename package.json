@@ -4,7 +4,7 @@
   "description": "- 외부 패키지의 도움을 받아 HTML/CSS/ES5 등 웹에서 보여줄 수 있도록   변환시켜줌 ### Parcel - 구성 없는 단순한 자동 번들링 - 소/중형 프로젝트에 적합 ### Webpack - 매우 꼼꼼한 구성 - 중/대형 프로젝트에 적합",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel index.html --port 1216",
     "build": "parcel build index.html"
   },
   "repository": {
@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/l0u0h0/bundler#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
+    "@babel/core": "^7.17.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^9.8.8",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "postcss": "^8.4.12",
