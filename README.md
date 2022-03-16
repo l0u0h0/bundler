@@ -32,6 +32,7 @@
 - 내보낼 때는 `module.exports`와 같이 사용
 ---
 ## Babel
+[Babel](https://babeljs.io/)
 - `ES 2015+`코드를 이전 js 엔진에서 실행할 수 있는 이전 버전과 호환되는  
 js 버전으로 변환하는 데 주로 사용되는 무료 오픈 소스 js 트랜스 컴파일러
 - `ES6`,`ES7`,`ES8`을 `ES5`로 변환
@@ -39,6 +40,7 @@ js 버전으로 변환하는 데 주로 사용되는 무료 오픈 소스 js 트
 `package.json` 파일에 `browerslists` 속성을 설정해줘야 한다.
 ---
 ## Parcel CLI(Command Line Interface)
+[Parcel](https://ko.parceljs.org/cli.html)
 ```
 parcel index.html
 ```
